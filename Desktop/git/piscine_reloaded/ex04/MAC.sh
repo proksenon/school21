@@ -1,0 +1,1 @@
+ifconfig -a | grep -v "ethernet" | grep "ether*" | sed "s/ether//" | tr -d " " | tr -d "	"
