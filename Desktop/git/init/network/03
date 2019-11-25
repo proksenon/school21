@@ -1,0 +1,1 @@
+ifconfig en0 | grep ether | grep -v autoselect | awk '{print $2}'
